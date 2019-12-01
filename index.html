@@ -4,11 +4,49 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- styles -->
   <link rel="stylesheet" href="./styles/style.css">
-  <script src="./scripts/app.js"></script>
+  <!-- jquery -->
+  <script defer
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  <!-- scripts -->
+  <script defer src="./scripts/app.js"></script>
   <title>Julian Siow's Portfolio</title>
 </head>
 <body>
-  <h1>Ali Sux</h1>
+  <div class="navbar">
+    <nav>
+      <ul>
+        <li class="navbar-link">
+          <a href="#home">Julian</a>
+        </li>
+        <li class="navbar-link">
+            <a href="#projects">Projects</a>
+        </li>
+        <li class="navbar-link">
+            <a href="#home">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <hero>
+    <div id="home" class="hero-container hero-img-1">
+      <div class="title-card">
+        <h2>Julian Siow</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus quisquam velit voluptatem maxime, alias ullam consequatur vel blanditiis repellat magnam. Architecto laudantium aliquid magnam obcaecati porro atque impedit consectetur? Voluptatum.</p>
+      </div>
+    </div>
+  </hero>
+  <section class="mission-statment">
+    <h2 id="projects" class="sect-header">Mission Statement</h2>
+    <p class="sect-content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora commodi asperiores, cum suscipit reprehenderit dolores inventore, rem vel ullam unde dolorum voluptatibus odit. Cupiditate, modi. Accusantium impedit reprehenderit dolore sit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore maxime adipisci ipsum corrupti quos. Eveniet vitae, consequatur voluptatem minus corrupti obcaecati doloremque nesciunt quo molestiae aut, quam eum velit sed!</p>
+  </section>
+  <section>
+    <hero>
+      <div class="hero-container hero-img-2"></div>
+    </hero>
+  </section>
 </body>
 </html>
