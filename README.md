@@ -24,7 +24,8 @@ Starting this project was really difficult because it was hard to find inspirati
 Code Highlights: 
 
 ### Parrallax Backgrounds
-```.hero-container{
+```
+  .hero-container{
   background-position: center;
   background-size: cover;
   background-color: firebrick;
@@ -48,7 +49,8 @@ Code Highlights:
 ```
 
 ### Smooth Scroll on Navbar click
-```const navHeight = $("div.navbar").height();
+```
+const navHeight = $("div.navbar").height();
 
 $(document).ready(() => {
   $(".navbar-link").on('click', (e) => {
