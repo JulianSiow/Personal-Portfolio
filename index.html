@@ -37,8 +37,8 @@
       </div>
     </div>
   </hero>
-  <section>
-    <h2 id="projects" class="sect-header">Projects</h2>
+  <section id="projects">
+    <h2 class="sect-header">Projects</h2>
     <hero>
       <a href="https://github.com/Jujubeaz">
         <div class="hero-container hero-img-2 project-container">
@@ -87,7 +87,12 @@
                   <input type="email" class="form-control" name="email">
                 </div>
                 <div class="form-group">
-                  <textarea type="text" class="form-control" rows="10" name="text"></textarea>
+                  <label for="subject">Subject</label>
+                  <input type="text" class="form-control" name="subject">
+                </div>
+                <div class="form-group">
+                  <label for="body">Body</label>
+                  <textarea type="text" class="form-control" rows="10" name="body"></textarea>
                 </div>
                 <button class="btn" type="submit">Submit</button>
               </form>

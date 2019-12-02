@@ -45,7 +45,6 @@ nav{
 .hero-container{
   background-position: center;
   background-size: cover;
-  background-color: firebrick;
   height: 100vh;
   background-attachment: fixed;
   border-bottom: 50px solid transparent;
@@ -57,11 +56,13 @@ nav{
 
 .hero-img-2{
   background-image: url("../images/sf-bay-bridge.jpeg");
+  height: 98vh;
 }
 
 .hero-img-3{
   background-image: url("../images/desk-background.jpg");
   background-position: left;
+  height: 94.5vh;
 }
 
 .title-card{
