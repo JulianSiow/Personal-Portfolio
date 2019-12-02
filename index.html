@@ -4,8 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="./styles/bootstrap.min.css">
   <!-- styles -->
   <link rel="stylesheet" href="./styles/style.css">
+  <!-- fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+  <!-- fontawesome -->
+  <script defer src="https://kit.fontawesome.com/c0798638f8.js" crossorigin="anonymous"></script>
   <!-- jquery -->
   <script defer
   src="https://code.jquery.com/jquery-3.4.1.min.js"
@@ -18,35 +24,75 @@
 <body>
   <div class="navbar">
     <nav>
-      <ul>
-        <li class="navbar-link">
-          <a href="#home">Julian</a>
-        </li>
-        <li class="navbar-link">
-            <a href="#projects">Projects</a>
-        </li>
-        <li class="navbar-link">
-            <a href="#home">Contact</a>
-        </li>
-      </ul>
+      <a class="navbar-link" href="#home">Julian</a>
+      <a class="navbar-link" href="#projects">Projects</a>
+      <a class="navbar-link" href="#contact">Contact</a>
     </nav>
   </div>
   <hero>
     <div id="home" class="hero-container hero-img-1">
       <div class="title-card">
-        <h2>Julian</h2>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus quisquam velit voluptatem maxime, alias ullam consequatur vel blanditiis repellat magnam. Architecto laudantium aliquid magnam obcaecati porro atque impedit consectetur? Voluptatum.</p>
+        <h2>Julian Siow</h2>
+        <p>Full Stack Software Engineer | Team Player | Professional Learner</p>
       </div>
     </div>
   </hero>
-  <section class="mission-statment">
-    <h2 id="projects" class="sect-header">Mission Statement</h2>
-    <p class="sect-content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora commodi asperiores, cum suscipit reprehenderit dolores inventore, rem vel ullam unde dolorum voluptatibus odit. Cupiditate, modi. Accusantium impedit reprehenderit dolore sit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore maxime adipisci ipsum corrupti quos. Eveniet vitae, consequatur voluptatem minus corrupti obcaecati doloremque nesciunt quo molestiae aut, quam eum velit sed!</p>
+  <section>
+    <h2 id="projects" class="sect-header">Projects</h2>
+    <!-- <p class="sect-content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora commodi asperiores, cum suscipit reprehenderit dolores inventore, rem vel ullam unde dolorum voluptatibus odit. Cupiditate, modi. Accusantium impedit reprehenderit dolore sit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore maxime adipisci ipsum corrupti quos. Eveniet vitae, consequatur voluptatem minus corrupti obcaecati doloremque nesciunt quo molestiae aut, quam eum velit sed!</p> -->
+    <hero>
+      <div class="hero-container hero-img-2 project-container">
+        <div class="project">
+          <img class="project-img" src="https://picsum.photos/250/250" alt="">
+          <div class="project-card">
+            <div class="project-desc">Project Link</div>
+          </div>
+        </div>
+        <div class="project">
+            <img class="project-img" src="https://picsum.photos/250/250" alt="">
+            <div class="project-card">
+              <div class="project-desc">Project Link</div>
+            </div>
+        </div>
+        <div class="project">
+            <img class="project-img" src="https://picsum.photos/250/250" alt="">
+            <div class="project-card">
+              <div class="project-desc">Project Link</div>
+            </div>
+        </div>
+      </div>
+    </hero>
   </section>
   <section>
-    <hero>
-      <div class="hero-container hero-img-2"></div>
-    </hero>
+      <hero>
+          <div id="contact" class="hero-container hero-img-3">
+            <div class="contact-container">
+              <h2>Contact Me</h2> 
+              <form action="submit" class="contact-form">
+                <div class="form-group">
+                  <label for="email">Your Email</label>
+                  <input type="email" class="form-control" name="email">
+                </div>
+                <div class="form-group">
+                  <textarea type="text" class="form-control" rows="10" name="text"></textarea>
+                </div>
+                <button class="btn" type="submit">Submit</button>
+              </form>
+              <div class="icon-container">
+                <div class="contact-icon">
+                  <a href="https://www.linkedin.com/in/julian-siow/">
+                    <i class="fab fa-linkedin fa-3x"></i>
+                  </a>
+                </div>
+                <div class="contact-icon">
+                  <a href="https://github.com/Jujubeaz">
+                    <i class="fab fa-github-square fa-3x"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </hero>
   </section>
 </body>
 </html>
