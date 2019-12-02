@@ -44,7 +44,8 @@ Code Highlights:
 .hero-img-3{
   background-image: url("../images/desk-background.jpg");
   background-position: left;
-}```
+}
+```
 
 ### Smooth Scroll on Navbar click
 ```const navHeight = $("div.navbar").height();
@@ -60,4 +61,5 @@ $(document).ready(() => {
       }, 1000);
     }
   });
-});```
+});
+```
