@@ -90,6 +90,10 @@ nav{
 /* ----------------------------- About ---------------------------*/
 
 .about-me-content{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-65%, -50%);
   background-color: rgba(60, 60, 60, .8);
   color: rgb(220, 220, 220);
   max-width: 75vw;
@@ -97,8 +101,30 @@ nav{
   padding: 25px;  
 }
 
+.about-me-content h2{
+  font-size: 3em;
+}
+
+.about-me-content-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  padding-top: .5em;
+}
+
+.about-me-content-container p{
+  padding-left: 1em;
+}
+
+.headshot{
+  max-height: 10em;
+}
 
 .technologies{
+  position: relative;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   background-color: rgba(60, 60, 60, .8);
   display: flex;
   flex-direction: row;
