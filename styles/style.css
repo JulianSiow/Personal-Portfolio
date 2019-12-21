@@ -10,6 +10,7 @@ a{
   color: rgb(220, 220, 220) !important;
 }
 
+/* SECTION  */
 /* ---------------------Navbar------------------------- */
 
 nav{
@@ -40,6 +41,7 @@ nav{
   transition: .3s;
 }
 
+/* SECTION  */
 /* ------------------------ Title Section ---------------------- */
 
 .hero-container{
@@ -55,11 +57,16 @@ nav{
 }
 
 .hero-img-2{
+  background-image: url("../images/murinselgraz.jpg");
+  height: 83vh;
+}
+
+.hero-img-3{
   background-image: url("../images/sf-bay-bridge.jpeg");
   height: 98vh;
 }
 
-.hero-img-3{
+.hero-img-4{
   background-image: url("../images/desk-background.jpg");
   background-position: left;
   height: 94.5vh;
@@ -87,22 +94,28 @@ nav{
   font-size: 1.3em;
 }
 
+/* SECTION  */
 /* ----------------------------- About ---------------------------*/
 
 .about-me-content{
   position: relative;
-  top: 50%;
+  top: 35%;
   left: 50%;
   transform: translate(-65%, -50%);
   background-color: rgba(60, 60, 60, .8);
   color: rgb(220, 220, 220);
   max-width: 75vw;
   margin: 0 auto;
-  padding: 25px;  
+  padding: 25px;
 }
 
 .about-me-content h2{
   font-size: 3em;
+  padding-bottom: .25em;
+}
+
+.about-me-content p{
+  font-size: 1.5em;
 }
 
 .about-me-content-container{
@@ -112,17 +125,17 @@ nav{
   padding-top: .5em;
 }
 
-.about-me-content-container p{
+.about-me-text{
   padding-left: 1em;
 }
 
 .headshot{
-  max-height: 10em;
+  max-height: 15em;
 }
 
 .technologies{
   position: relative;
-  top: 75%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: rgba(60, 60, 60, .8);
@@ -131,8 +144,10 @@ nav{
   justify-content: space-evenly;
   padding: .5em 0;
   flex-wrap: wrap;
+  color: rgb(220, 220, 220);
 }
 
+/* SECTION  */
 /* ---------------------------- Projects ------------------------ */
 
 .sect-header{
@@ -186,6 +201,7 @@ nav{
   padding: 7px 7px;
 }
 
+/* SECTION  */
 /* -------------------------------- Contact -------------------------------- */
 
 .contact-container{
