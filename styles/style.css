@@ -157,6 +157,7 @@ nav{
   font-size: 2.5em;
   height: fit-content;
   padding: 30px;
+  letter-spacing: .2em;
 }
 
 .project-container{
@@ -205,12 +206,14 @@ nav{
 /* -------------------------------- Contact -------------------------------- */
 
 .contact-container{
+  border: 1px solid rgb(220, 220, 220);
   background-color: rgba(60, 60, 60, .8);
   float: right;
-  margin: 15% 15% 0 0;
+  margin: 10% 15% 0 0;
   color: rgb(220, 220, 220);
   padding: 0 25px 10px;
   width: 500px;
+  border-radius: .5em;
 }
 
 .contact-container h2{

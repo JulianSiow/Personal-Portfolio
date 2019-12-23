@@ -8,7 +8,7 @@ $(document).ready(() => {
       let scrollPosition = $(hash).offset().top - navHeight
       $('html').animate({
         scrollTop: scrollPosition
-      }, 1000);
+      }, 800);
     }
   });
 });
