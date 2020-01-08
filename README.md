@@ -14,6 +14,7 @@ Starting this project was really difficult because it was hard to find inspirati
 
 ## Unsolved Issues:
 * Pages height is inconsistent
+* Page breaks on mobile, needs refactoring
 
 ## Wins and Struggles: 
 * I am really proud of the parrallax effect on the pictures, although I do think they could be inproved with some photoshop to create a layered parrallax movement

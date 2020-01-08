@@ -58,12 +58,12 @@ nav{
 
 .hero-img-2{
   background-image: url("../images/murinselgraz.jpg");
-  height: 83vh;
+  height: 70vh;
 }
 
 .hero-img-3{
   background-image: url("../images/sf-bay-bridge.jpeg");
-  min-height: 98vh;
+  min-height: 85vh;
 }
 
 .hero-img-4{
@@ -132,6 +132,18 @@ nav{
   max-height: 15em;
 }
 
+.resume{
+  display: flex;
+  flex-direction: row;
+  padding-top: 2.5%;
+}
+
+.resume-link{
+  margin-left: 2.5%;
+  padding: .5em;
+  border: 1px solid rgb(220, 220, 220);
+}
+
 .technologies{
   position: relative;
   top: 50%;
@@ -171,7 +183,7 @@ nav{
   position: relative;
   height: 250px;
   width: auto;
-  margin: 10px 0;
+  margin: 2em;
 }
 
 .project-img{
