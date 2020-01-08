@@ -10,11 +10,10 @@
 Starting this project was really difficult because it was hard to find inspiration and ideas to make a website that was uniquely mine.  In the end I settled on finding some effects that stood out to me and set out to create something that looked cool and proffessional, without leaning too hard on css effects or animations.  I am happy with how it turned out for now but I have a lot that I still want to add.  
 
 ## High priority on the todo list are:
-* an About Me page that lists my technologies and experience
 * adding proper images and descriptions for my projects page
 
 ## Unsolved Issues:
-* email form is not working as of yet
+* Pages height is inconsistent
 
 ## Wins and Struggles: 
 * I am really proud of the parrallax effect on the pictures, although I do think they could be inproved with some photoshop to create a layered parrallax movement
